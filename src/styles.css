@@ -36,20 +36,20 @@ h1 {
   font-weight: bold;
 }
 
-.loader-container,
-.loader-container:before {
+.loader__container,
+.loader__container:before {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
 }
-.loader-container {
+.loader__container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.loader-container:before {
+.loader__container:before {
   content: '';
   background-color: #000;
   opacity: 1;
